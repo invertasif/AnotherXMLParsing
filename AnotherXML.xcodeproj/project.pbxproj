@@ -14,6 +14,10 @@
 		E03B85A31EACE2C4006E33BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03B85A11EACE2C4006E33BD /* LaunchScreen.storyboard */; };
 		E03B85AE1EACE2C4006E33BD /* AnotherXMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03B85AD1EACE2C4006E33BD /* AnotherXMLTests.swift */; };
 		E03B85B91EACE2C4006E33BD /* AnotherXMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03B85B81EACE2C4006E33BD /* AnotherXMLUITests.swift */; };
+		E03B85C71EACE2D0006E33BD /* cd_catalog.xml in Resources */ = {isa = PBXBuildFile; fileRef = E03B85C61EACE2D0006E33BD /* cd_catalog.xml */; };
+		E03B85C91EACE306006E33BD /* CD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03B85C81EACE306006E33BD /* CD.swift */; };
+		E03B85CB1EACE443006E33BD /* CDParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03B85CA1EACE443006E33BD /* CDParser.swift */; };
+		E03B85CD1EACE9BF006E33BD /* CDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03B85CC1EACE9BF006E33BD /* CDTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		E03B85B41EACE2C4006E33BD /* AnotherXMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnotherXMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E03B85B81EACE2C4006E33BD /* AnotherXMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherXMLUITests.swift; sourceTree = "<group>"; };
 		E03B85BA1EACE2C4006E33BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E03B85C61EACE2D0006E33BD /* cd_catalog.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cd_catalog.xml; sourceTree = "<group>"; };
+		E03B85C81EACE306006E33BD /* CD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CD.swift; sourceTree = "<group>"; };
+		E03B85CA1EACE443006E33BD /* CDParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDParser.swift; sourceTree = "<group>"; };
+		E03B85CC1EACE9BF006E33BD /* CDTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CDTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,11 @@
 			children = (
 				E03B85981EACE2C4006E33BD /* AppDelegate.swift */,
 				E03B859A1EACE2C4006E33BD /* ViewController.swift */,
+				E03B85C81EACE306006E33BD /* CD.swift */,
+				E03B85CA1EACE443006E33BD /* CDParser.swift */,
+				E03B85CC1EACE9BF006E33BD /* CDTableViewCell.swift */,
 				E03B859C1EACE2C4006E33BD /* Main.storyboard */,
+				E03B85C61EACE2D0006E33BD /* cd_catalog.xml */,
 				E03B859F1EACE2C4006E33BD /* Assets.xcassets */,
 				E03B85A11EACE2C4006E33BD /* LaunchScreen.storyboard */,
 				E03B85A41EACE2C4006E33BD /* Info.plist */,
@@ -234,6 +246,7 @@
 			files = (
 				E03B85A31EACE2C4006E33BD /* LaunchScreen.storyboard in Resources */,
 				E03B85A01EACE2C4006E33BD /* Assets.xcassets in Resources */,
+				E03B85C71EACE2D0006E33BD /* cd_catalog.xml in Resources */,
 				E03B859E1EACE2C4006E33BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E03B859B1EACE2C4006E33BD /* ViewController.swift in Sources */,
+				E03B85CB1EACE443006E33BD /* CDParser.swift in Sources */,
 				E03B85991EACE2C4006E33BD /* AppDelegate.swift in Sources */,
+				E03B85CD1EACE9BF006E33BD /* CDTableViewCell.swift in Sources */,
+				E03B85C91EACE306006E33BD /* CD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
